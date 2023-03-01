@@ -148,7 +148,7 @@ A three-and-a-half year longitudinal study of the brain and behavior dataset sha
 
 *The dataset and project address: http://fcon_1000.projects.nitrc.org/indi/retro/southwestuni_qiu_index.html*
 
-**Please note that for section 4, at most condition, you may find the database download link in the project page**.
+**Please note that for section 4, at most condition, you may find the database download link in the project page directly**.
 
 
 #### The End
