@@ -1,121 +1,182 @@
-### Public fMRI Dataset
+|         |                           |
+| ------- | ------------------------- |
+| Title   | Public fMRI Dataset       |
+| Version | 23<sup>th</sup> May, 2023 |
 
 
 
-*功能性磁共振成像（fMRI，functional Magnetic Resonance Imaging）是一种神经影像学技术。其原理是利用磁振造影来测量神经元活动所引发之血液动力的改变。由于fMRI的非侵入性和其较少的辐射暴露量，从1990年代开始其就在脑部功能定位领域占有了重要地位。目前，fMRI主要被运用于对人及动物的脑或脊髓之研究中。*
-
-*目前能够检索到的MRI或fMRI数据库较多，为此，编者浏览文献汇总了4大使用最广泛的数据库，希望能为大家从事与影像有关的科研工作提供帮助。*
-
-***
-
-**1. OpenfMRI 数据库**
+# OpenfMRI  database
 
 
 
-OpenfMRI是一个以fMRI数据集为主的数据库，大多数数据集会附有使用该数据集发表的文献，无需注册或登录即可访问数据集，下载非常方便。数据集存储于ASW (Amazon Web Services)，小编亲测使用浏览器默认方式下载，速度还算可观。
-该数据库项目由斯坦福大学波特拉克实验室和神经可再生科学中心管理。接受美国国家科学基金会、美国国家药物滥用研究所以及约翰·阿诺德基金会资助。
-数据库项目地址：www.openfmri.org 
-该数据库目前收录有95例fMRI（MRI）数据集，共计3372名受试者数据。由于新的基金支持以及其他原因，该数据库目前已不再更新，更新的fMRI数据集均提交至OpenNEURO。
+OpenfMRI is a database based on fMRI datasets, and most of the datasets will be accompanied by literature published using the datasets, and the datasets can be accessed without registration or login, and are very easy to download. The datasets are stored in ASW (Amazon Web Services), and I have personally tested the download speed using the browser default method, which is quite impressive.
 
-***
+The database project is managed by the Portlake Laboratory and the Center for Neurorenewable Sciences at Stanford University. It receives funding from the National Science Foundation, the National Institute on Drug Abuse, and the John Arnold Foundation.
 
-**2. OpenNEURO 数据库**
+*The database project is located at: www.openfmri.org* 
 
-
-
-OpenNEURO是一个以神经科学数据为主的免费且开源的数据库，其数据集涵盖MRI，MEG，iEEG，ECoG，ASL和PET，可谓非常丰富。在上一个数据库中编者也介绍到，OpenfMRI中新的数据集也都提交到此数据库，因此，此数据库中的数据集数量之庞大，是小编也没有想象到的。目前收录有577例数据集，共计19872名受试者的数据，使用关键词fMRI检索到110多个数据集。
-该数据库项目资助基金会同OpenfMRI数据库。
-数据库项目地址：www.openneuro.org 
-数据库使用建议：
-a.	首次使用此数据库，建议通过一个webinar来学习如何使用。
-Webinar地址：https://www.youtube.com/watch?v=FK_c1x1Pilk 
-b.	可以在搜索栏检索关键词获取相应的数据集，如fMRI，ECoG等。
-c.	登录后可提交和管理自己的数据集。
-
-***
-
-**3. fastMRI 数据库**
-
-由纽约大学医学院放射学系和纽约大学朗格健康中心的高级成像创新与研究中心主导的一项与Facebook AI研究中心合作的项目。该项目旨在利用AI技术，提升MRI扫描效率。该数据库分为膝盖MRI和脑部MRI。脑部MRI数据库提供6970名受试者的T1,T2和FLAIR数据（1.5T和3T）。
-数据库网址：https://fastmri.med.nyu.edu/ 
-数据库项目地址：https://fastmri.org/ 
-项目GitHub：https://github.com/facebookresearch/fastMRI/ 
-
-***请注意：***
-a.	虽说免费开放使用，但该数据库使用授权访问制，需申请授权方可访问及获取，数据库网址有关于授权申请的详细说明。
-b.	使用此数据库已发表诸多的研究文献，若需要更深入了解此数据库，建议阅读。文献可在数据库项目地址或GitHub获取PDF版本。
-
-***
-
-**4. fcon_1000和INDI项目数据库**
+The database currently contains 95 fMRI (MRI) datasets with a total of 3372 subjects data. Due to new grant support and other reasons, the database is currently not being updated and updated fMRI datasets are submitted to OpenNEURO.
 
 
 
-1000 Functional Connectomes Project (fcon_1000) and International Neuroimaging Data-sharing Initiative (INDI)。fcon_1000和INDI项目的主要目的是为了推进神经影像数据的开放共享。该项目创始人 Michael Milham 博士目前在运行一个非营利性的儿童心理援助机构。国内学者来自杭州师范大学的臧玉峰教授团队和西南大学影像中心的研究团队也加入了该项目，并贡献了非常多的数据集。该项目有多个不同分类的子数据库，所有数据同样使用AWS存储。
-该项目数据库详细说明：http://fcon_1000.projects.nitrc.org/indi/IndiPro.html 
-数据集授权访问申请：https://www.nitrc.org/project/request.php?group_id=296 
-（不过编者找到了可以直接下载的方法，并将下载地址附于每例数据集中）
-
-- [ ] 4.1 西蒙 数据集
-
-​		Simon 数据集是由73例29-46岁成年健康男性受试者组成的MRI和fMRI数据集，该数据集的有几大		特点：采集自多个不同的站点，使用多种不同的MRI扫描仪，扫描了多种不同的T1，T2序列。该		项目的首席研究员是来自加拿大Cervo 脑中心的Simon 博士，该数据集通过 CC BY-SA 协议共享。
-​		数据集项目及获取地址：http://fcon_1000.projects.nitrc.org/indi/retro/SIMON.html 
-​		数据集下载地址在正文部分。
-
-- [ ] 4.2 帕金森氏症 MRI数据集
-  由首都医科大学宣武医院北京老年医学研究所和 中国北京脑病研究所帕金森病中心联合建设的帕金森氏症的T1和静息态数据集（由Neurocon团队和Tao Wu 团队贡献 ），该数据集共计47例数据，并于2017年发表了文章。
-  数据集及项目地址：http://fcon_1000.projects.nitrc.org/indi/retro/parkinsons.html 
-  数据集下载地址在正文部分。
-
-- [ ] 4.3 北师大认知神经科学重点实验室 静息态fMRI数据集
-  由北京师范大学认知神经科学国家重点实验室共享的180例健康受试者的R-fMRI和DTI成像数据。
-  数据集及项目地址：http://fcon_1000.projects.nitrc.org/indi/retro/BeijingEnhanced.html
-  数据集下载地址：http://fcon_1000.projects.nitrc.org/indi/retro/BeijingEnhanced/ 
-
-- [ ] 4.4 注意力缺陷儿童 fMRI数据集
-  由纽约大学格罗斯曼医学院儿童和青少年精神病学系的Victor 教授团队共享的68名ADHD儿童的MPRAGE，R-fMRI 和 ASL成像的数据，Victor教授专注于使用fMRI等脑成像技术研究ADHD的发病机制及预后问题。
-  数据集及项目地址：http://fcon_1000.projects.nitrc.org/indi/retro/CUNMET.html  
-  数据集下载地址：http://fcon_1000.projects.nitrc.org/indi/retro/COBRE/ 
-
-- [ ] 4.5  成人静息态fMRI 数据集
-  31名成人6分钟静息态fMRI数据，同时还包括呼吸和心率的数据。
-  数据集及项目地址： http://fcon_1000.projects.nitrc.org/indi/retro/ClevelandCCF.html 
-  数据集下载地址： http://fcon_1000.projects.nitrc.org/indi/retro/ClevelandCCF/ 
-
-- [ ] 4.6 成人静息态fMRI 数据集
-  同样是一个成人静息态fMRI数据集，该数据集包含321位受试者的数据，样本量非常庞大。
-  数据集及项目地址： http://fcon_1000.projects.nitrc.org/indi/retro/MPI.html 
-  数据集下载地址： http://fcon_1000.projects.nitrc.org/indi/retro/MPI 
-
-- [ ] 4.7 纵向fMRI研究数据集
-  该数据集汇总了受试者在七年时间（2011-2018 年）中聆听口述故事时获得的 fMRI 数据集。研究成果于2019年发表。
-  数据集及项目地址： http://fcon_1000.projects.nitrc.org/indi/retro/Narratives.html 
-  数据集下载地址在正文部分。
-
-- [ ] 4.8 癫痫手术患者的静息态fMRI 数据集
-  该数据集包含 6 名患有医学中称之为难治性癫痫的患者的数据。为了定位致病灶，这6名患者接受了神经外科手术，向颅内植入电极。在接受电极植入手术之前，进行了5分钟静息态fMRI扫描。
-  数据集及项目地址： http://fcon_1000.projects.nitrc.org/indi/retro/NorthShoreLIJ.html 
-  数据集下载地址： http://fcon_1000.projects.nitrc.org/indi/retro/NorthShoreLIJ/ 
-
-- [ ] 4.9 39名受试者玩视频游戏的fMRI数据集
-  39名受试者训练20小时玩太空堡垒视频游戏，同时加入oddball任务，扫描fMRI，评估其学习和训练加工策略的差异。
-  数据集及项目地址： http://fcon_1000.projects.nitrc.org/indi/retro/Train-39.html 
-  数据集下载地址： http://fcon_1000.projects.nitrc.org/indi/retro/TRAIN-39/ 
-
-- [ ] 4.10 与衰老有关研究的fMRI数据集
-  达拉斯寿命研究（DLBS）项目，重点关注成人寿命不同阶段认知功能的保存和衰退的原因，特别关注健康大脑向阿尔茨海默病发展的早期阶段。该数据集包括315名DTI MRI及fMRI，以及147例PET数据，数据集庞大且种类丰富。
-  数据集及项目地址： http://fcon_1000.projects.nitrc.org/indi/retro/dlbs.html 
-  数据集下载地址： http://fcon_1000.projects.nitrc.org/indi/retro/dlbs_content/ 
-
-- [ ] 4.11 可卡因成瘾机制研究的fMRI数据集
-  该数据集包含来自 29 名可卡因依赖者和 24 名健康比较参与者的6分钟静息态fMRI数据。
-  数据集及项目地址：http://fcon_1000.projects.nitrc.org/indi/retro/nyuCocaine.html 
-  数据集下载地址在正文部分。
-
-- [ ] 4.12 西南大学多模态磁共振（mMRI）数据集
-  由西南大学心理学部共享的一组为期三年半的纵向研究大脑和行为数据集，mMRI数据包括静息态fMRI，DTI，结构像等，值得注意的是，相关研究者已使用该数据集发表了众多文献。
-  数据集及项目地址： http://fcon_1000.projects.nitrc.org/indi/retro/southwestuni_qiu_index.html  数据集下载地址在正文部分。
+## OpenNEURO database
 
 
 
-#### The End
+OpenNEURO is a free and open source database mainly for neuroscience data, and its datasets cover MRI, MEG, iEEG, ECoG, ASL and PET, which can be very rich. In the previous database, the editor also introduced that new datasets in OpenfMRI are also submitted to this database, so the number of datasets in this database is so large that even the editor did not imagine it. There are currently 577 case datasets with a total of 19,872 subjects included, and more than 110 datasets were retrieved using the keyword fMRI.
+
+The database project is funded by the same foundation as the OpenfMRI database.
+
+*The database project address: www.openneuro.org* 
+
+Database use recommendations:
+
+a. To use this database for the first time, a webinar is recommended to learn how to use it.
+Webinar address: https://www.youtube.com/watch?v=FK_c1x1Pilk 
+b. You can search for keywords in the search bar to get the corresponding dataset, such as fMRI, ECoG, etc.
+c. You can submit and manage your own datasets after logging in.
+
+
+
+## fastMRI database
+
+
+
+A project led by the Department of Radiology at New York University School of Medicine and the Center for Advanced Imaging Innovation and Research at NYU Langone Health in collaboration with the Facebook AI Research Center. The project aims to use AI technology to improve the efficiency of MRI scans. The database is divided into knee MRI and brain MRI. the brain MRI database provides T1,T2 and FLAIR data (1.5T and 3T) for 6970 subjects.
+*Database URL: https://fastmri.med.nyu.edu/* 
+
+*Database project address: https://fastmri.org/* 
+
+*Project GitHub: https://github.com/facebookresearch/fastMRI/* 
+
+
+
+> ***Please note:***
+> a. Although it is free and open to use, this database uses the authorization access system, you need to apply for authorization to access and obtain, the database URL has detailed instructions on the authorization application.
+> b. Many research papers have been published using this database, so if you need to know more about this database, we recommend reading it. PDF versions of the literature are available at the database project address or GitHub.
+
+
+
+
+
+##  fcon_1000 and INDI project
+
+
+
+1000 Functional Connectomes Project (fcon_1000) and International Neuroimaging Data-sharing Initiative (INDI). fcon_1000 and INDI projects are primarily aimed at advancing the open sharing of neuroimaging The main purpose of the fcon_1000 and INDI projects is to promote open sharing of neuroimaging data. The founder of the project, Dr. Michael Milham, currently runs a non-profit child psychological assistance organization. Domestic scholars from Professor Zang Yufeng's team at Hangzhou Normal University and a research team from the Imaging Center at Southwest University have also joined the project and contributed a very large number of datasets. The project has several sub-databases with different classifications and all data are also stored using AWS.
+
+*Detailed description of the project's database: http://fcon_1000.projects.nitrc.org/indi/IndiPro.html* 
+
+*Dataset authorization access request: https://www.nitrc.org/project/request.php?group_id=296* 
+
+*(However, the editors have found a way to download it directly and have attached the download address to each example dataset)*
+
+
+
+
+
+### Simon dataset
+
+The Simon dataset is an MRI and fMRI dataset consisting of 73 adult healthy male subjects aged 29-46 years with several features: acquired from several different sites, using several different MRI scanners, and scanned with several different T1, T2 sequences. The principal investigator of the project is Dr. Simon from the Cervo Brain Center in Canada, and the dataset is shared through the CC BY-SA protocol.
+
+*The dataset project and access address: http://fcon_1000.projects.nitrc.org/indi/retro/SIMON.html* 
+
+
+
+### Parkinson's MRI dataset
+
+The T1 and resting state dataset of Parkinson's disease (contributed by Neurocon team and Tao Wu team) was jointly constructed by Beijing Institute of Geriatrics, Xuanwu Hospital, Capital Medical University and Parkinson's Disease Center, Beijing Institute of Brain Diseases, China, which has a total of 47 cases of data and was published in 2017.
+
+*The dataset and project address:* http://fcon_1000.projects.nitrc.org/indi/retro/parkinsons.html 
+
+
+
+### Resting-state fMRI dataset from the Key Laboratory of Cognitive Neuroscience, Beijing Normal University
+
+R-fMRI and DTI imaging data of 180 healthy subjects shared by the State Key Laboratory of Cognitive Neuroscience, Beijing Normal University.
+
+*Dataset and project address:* *http://fcon_1000.projects.nitrc.org/indi/retro/BeijingEnhanced.html*
+*Dataset download address: http://fcon_1000.projects.nitrc.org/indi/retro/BeijingEnhanced/* 
+
+
+
+### The fMRI Dataset for Children with Attention Deficit Disorder
+
+Data from MPRAGE, R-fMRI and ASL imaging of 68 children with ADHD shared by Professor Victor's team in the Department of Child and Adolescent Psychiatry at New York University Grossman School of Medicine. Professor Victor focuses on the pathogenesis and prognosis of ADHD using brain imaging techniques such as fMRI.
+
+*Dataset and project address: http://fcon_1000.projects.nitrc.org/indi/retro/CUNMET.html* 
+*Download the dataset at: http://fcon_1000.projects.nitrc.org/indi/retro/COBRE/*
+
+
+
+### Adult resting-state fMRI dataset
+
+Six-minute resting-state fMRI data for 31 adults, also including respiratory and heart rate data.
+
+*Address of the dataset and project: http://fcon_1000.projects.nitrc.org/indi/retro/ClevelandCCF.html*
+*The dataset can be downloaded at: http://fcon_1000.projects.nitrc.org/indi/retro/ClevelandCCF/*
+
+
+
+### Adult resting-state fMRI dataset
+
+Also an adult resting-state fMRI dataset, this dataset contains data from 321 subjects, a very large sample size.
+
+*Dataset and project address: http://fcon_1000.projects.nitrc.org/indi/retro/MPI.html*
+*The dataset can be downloaded at: http://fcon_1000.projects.nitrc.org/indi/retro/MPI*
+
+
+
+### Longitudinal fMRI study dataset
+
+This dataset aggregates fMRI datasets obtained from subjects listening to oral stories over a seven-year period (2011-2018). The results of the study were published in 2019.
+
+*The dataset and project address: http://fcon_1000.projects.nitrc.org/indi/retro/Narratives.html*
+*The dataset download address is in the text section.*
+
+
+
+### Resting-state fMRI dataset of patients undergoing epilepsy surgery
+
+The dataset contains data from 6 patients with what is known in medicine as refractory epilepsy. To localize the causative lesion, the six patients underwent neurosurgery to implant electrodes into the skull. A 5-minute resting-state fMRI scan was performed prior to the electrode implantation procedure.
+
+*Address of the dataset and project: http://fcon_1000.projects.nitrc.org/indi/retro/NorthShoreLIJ.html*
+*The dataset can be downloaded at: http://fcon_1000.projects.nitrc.org/indi/retro/NorthShoreLIJ/*
+
+
+
+### fMRI dataset of 39 subjects playing video games
+
+Thirty-nine subjects were trained for 20 hours to play the Battlestar Galactica video game while adding the oddball task, and fMRI was scanned to assess the differences in their learning and training processing strategies.
+
+*Dataset and project address: http://fcon_1000.projects.nitrc.org/indi/retro/Train-39.html*
+*The dataset can be downloaded at: http://fcon_1000.projects.nitrc.org/indi/retro/TRAIN-39/*
+
+
+
+### fMRI dataset for aging-related studies
+
+The Dallas Longevity Study (DLBS) project, focuses on the causes of preservation and decline of cognitive function at different stages of adult life span, with a particular focus on the early stages of healthy brain progression to Alzheimer's disease. The dataset includes 315 DTI MRI and fMRI, as well as 147 PET cases, making the dataset large and diverse.
+
+*The dataset and project address: http://fcon_1000.projects.nitrc.org/indi/retro/dlbs.html*
+*The dataset can be downloaded at: http://fcon_1000.projects.nitrc.org/indi/retro/dlbs_content/*
+
+
+
+### fMRI dataset for the study of cocaine addiction mechanisms
+
+This dataset contains 6-minute resting-state fMRI data from 29 cocaine dependent individuals and 24 healthy comparison participants.
+
+*The dataset and project address: http://fcon_1000.projects.nitrc.org/indi/retro/nyuCocaine.html*
+
+
+
+### Southwestern University multimodal magnetic resonance (mMRI) dataset
+
+A three-and-a-half year longitudinal study of the brain and behavior dataset shared by the Department of Psychology at Southwestern University. mMRI data include resting-state fMRI, DTI, structural images, etc. Notably, numerous publications have been published by related researchers using this dataset.
+
+*The dataset and project address: http://fcon_1000.projects.nitrc.org/indi/retro/southwestuni_qiu_index.html*
+
+
+
+***[TBC]***
